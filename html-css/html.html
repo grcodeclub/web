@@ -1,5 +1,3 @@
-
-
 <html>
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=0.8">
@@ -29,7 +27,7 @@
                         <tr>
                             <td><img src="https://grcodeclub.github.io/file/logo_and_graphic/logo.png" class="logo"/></td>
                             <td><h1 class="header_text"><span class="header_text">  GrCode Club </span></h1></td>
-                            <td><a href="https://github.com/GrCodeClub/grcodeclub.github.io/edit/main/website/html-css/html.html" target="_blank"><img src="https://grcodeclub.github.io/file/logo_and_graphic/edit.png"  width="60px"></a></td>
+                            <td><a href="https://github.com/GrCodeClub/website/edit/main/html-css/html.html" target="_blank"><img src="https://grcodeclub.github.io/file/logo_and_graphic/edit.png"  width="60px"></a></td>
                         </tr>
                     </table> 
                 </div> <!--Τέλος Επικεφαλίδας-->
@@ -51,21 +49,16 @@
                         </tr>
                     </table> 
                 </div> <!--Τέλος Επικεφαλίδας σε κινητά -->
-                <table>  <!--Αρχή Menu σε κινητά-->
-                    <tr>
-                        <td>
-                            <input type="checkbox" class="openSidebarMenu" id="openSidebarMenu">
-                            <label for="openSidebarMenu" class="sidebarIconToggle">
-                                <div class="spinner diagonal part-1"></div>
-                                <div class="spinner horizontal"></div>
-                                <div class="spinner diagonal part-2"></div>
-                            </label>
-                            <div id="sidebarMenu" style="overflow: auto;">
-                                <ul class="sidebarMenuInner"></ul>
-                            </div>
-                        </td>
-                    </tr>
-                </table> <!--Τέλος Menu σε κινητά-->
+                <div>
+                    <input type="checkbox" class="openSidebarMenu" id="openSidebarMenu">
+                    <label for="openSidebarMenu" class="sidebarIconToggle">
+                        <div class="spinner diagonal part-1"></div>
+                        <div class="spinner horizontal"></div>
+                        <div class="spinner diagonal part-2"></div>
+                    </label>
+                    <div id="sidebarMenu">
+                        <ul class="sidebarMenuInner"></ul>
+                    </di>
             </section> <!--Τέλος εμφάνιση σε κινητά-->
 
             <div class="Text"> <!--Αρχή Κειμένου-->
@@ -75,16 +68,8 @@
                     
                     <h1 class="highlight_blue">Κείμενο με πλάγια μορφοποίηση</h1>                         
                     <div style=" border-radius: 10px; background-color: rgb(12, 12, 1); margin-left: 10px; margin-right: 10px; padding-bottom: 2px;">
-                      <div  class="appearance">
-                          <div class="space"> 
-                              <div class="buttons1"> </div>
-                              <div class="buttons2"> </div>
-                              <div class="buttons3"> </div>
-                          </div>
-                          <div class="name_input">Html</div>
-                      </div>
-                      <div  class="line-numbers"><pre class="code_editor"><code class="language-html">
-&lt;p&gt;
+                     
+                      <div  class="line-numbers"><pre class="code_editor"><code class="language-html">&lt;p&gt;
     &lt;em&gt;Αυτό είναι ένα κείμενο με έντονη μορφοποίηση.&lt;/em&gt;
 &lt;/p&gt;</code></pre>    
                       </div>
@@ -92,16 +77,7 @@
 
                     <h1 class="highlight_blue">Κείμενο με έντονη μορφοποίηση</h1>
                         <div style=" border-radius: 10px; background-color: rgb(12, 12, 1); margin-left: 10px; margin-right: 10px; padding-bottom: 2px;">
-                        <div  class="appearance">
-                            <div class="space"> 
-                                <div class="buttons1"> </div>
-                                <div class="buttons2"> </div>
-                                <div class="buttons3"> </div>
-                            </div>
-                            <div class="name_input">Html</div>
-                        </div>
-                        <div  class="line-numbers"><pre class="code_editor"><code class="language-html">
-&lt;p&gt;
+                        <div  class="line-numbers"><pre class="code_editor"><code class="language-html">&lt;p&gt;
     &lt;strong&gt;Αυτό είναι ένα κείμενο με έντονη μορφοποίηση.&lt;/strong&gt; 
 &lt;/p&gt;</code></pre>    
                         </div>
@@ -109,48 +85,25 @@
 
                       <h1 class="highlight_blue">Εικόνα</h1>
                       <div i style=" border-radius: 10px; background-color: rgb(12, 12, 1); margin-left: 10px; margin-right: 10px; padding-bottom: 2px;">
-                        <div  class="appearance">
-                            <div class="space"> 
-                                <div class="buttons1"> </div>
-                                <div class="buttons2"> </div>
-                                <div class="buttons3"> </div>
-                            </div>
-                            <div class="name_input">Html</div>
-                        </div>
                             <div  class="line-numbers">
-                                <pre class="bg"><code class="language-html">
-&lt;img src="image.jpg" alt="Περιγραφή εικόνας"&gt;</code></pre>                                
-                            </div>                          </div>
+                                <pre class="bg"><code class="language-html">&lt;img src="image.jpg" alt="Περιγραφή εικόνας"&gt;</code></pre>                                
+                            </div></div>
                         
                       <h1 class="highlight_blue" >Υπερσύνδεσμος (Link)</h1>
                       <div  style=" border-radius: 10px; background-color: rgb(12, 12, 1); margin-left: 10px; margin-right: 10px; padding-bottom: 2px;">
                         <div  class="appearance">
-                            <div class="space"> 
-                                <div class="buttons1"> </div>
-                                <div class="buttons2"> </div>
-                                <div class="buttons3"> </div>
-                            </div>
                             <div class="name_input">Html</div>
                         </div>
                             <div  class="line-numbers">
-                                <pre class="code_editor"><code class="language-html">
- &lt;a href="https://www.example.com"&gt;Κείμενο Υπερσυνδέσμου&lt;/a&gt;</code></pre>                                
+                                <pre class="code_editor"><code class="language-html">&lt;a href="https://www.example.com"&gt;Κείμενο Υπερσυνδέσμου&lt;/a&gt;</code></pre>                                
                             </div>  
                         </div>
 
                         <h1 class="highlight_blue">Λίστα με κουκίδες (Unordered List)</h1>
                         <div style=" border-radius: 10px; background-color: rgb(12, 12, 1); margin-left: 10px; margin-right: 10px; padding-bottom: 2px;">
-                            <div  class="appearance">
-                                <div class="space"> 
-                                    <div class="buttons1"> </div>
-                                    <div class="buttons2"> </div>
-                                    <div class="buttons3"> </div>
-                                </div>
-                                <div class="name_input">Html</div>
-                            </div>
+
                             <div  class="line-numbers">
-                                <pre class="bg"><code class="language-html">
- &lt;ul&gt;
+                                <pre class="bg"><code class="language-html">&lt;ul&gt;
     &lt;li>Στοιχείο 1&lt;/li&gt;
     &lt;li>Στοιχείο 2&lt;/li&gt;
     &lt;li>Στοιχείο 3&lt;/li&gt;
