@@ -1,11 +1,11 @@
 $(document).ready(function() {
-    var menuLink = ' <li><a href="https://grcodeclub.github.io/website/main.html">Ιστοσελίδες</a></li>';
+    var menuLink = ' <li><a href="https://grcodeclub.github.io/website">Ιστοσελίδες</a></li>';
     $('.sidebarMenuInner').append(menuLink);
 
     menuLink = ' <li><a href="https://grcodeclub.github.io">GrCode Club</a></li>';
     $('.sidebarMenuInner').append(menuLink);
 
-    menuLink = ' <li><a href="https://grcodeclub.github.io/programming/main.html">Γλώσσες Προγραμματισμού</a></li>';
+    menuLink = ' <li><a href="https://grcodeclub.github.io/programming">Γλώσσες Προγραμματισμού</a></li>';
     $('.sidebarMenuInner').append(menuLink);
     
     menuLink = ' <li><a href="https://grcodeclub.github.io/website/html-css.html">CSS - Html</a></li>';
