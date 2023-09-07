@@ -18,6 +18,9 @@ $(document).ready(function() {
     menuLink = ' <li><a href="https://grcodeclub.github.io/website/javascript.html">JavaScript</a></li>';
     $('.sidebarMenuInner').append(menuLink);
 
+    menuLink = ' <li><a href="https://grcodeclub.github.io/website/extra/symbols.html">Symbols</a></li>';
+    $('.sidebarMenuInner').append(menuLink);
+    
     menuLink = '<li style="height: 200px;"></li>';
     $('.sidebarMenuInner').append(menuLink);
   });
