@@ -1,0 +1,156 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=0.8">
+        <meta property="og:image" content="https://grcodeclub.github.io/file/background/5.png"/>
+        <meta property="og:title" content="Html | Τύποι Λίστων">
+        <script src="https://grcodeclub.github.io/js/jquery.js"></script>
+        <script src="https://grcodeclub.github.io/website/menu.js"></script>
+        <link rel="stylesheet" href="https://grcodeclub.github.io/css/header_and_footer.css">
+        <link rel="stylesheet" href="https://grcodeclub.github.io/css/main.css">
+        <script src="https://grcodeclub.github.io/js/prism.js"></script>
+        <link rel="stylesheet" href="https://grcodeclub.github.io/css/text.css">
+        <link rel="stylesheet" href="https://grcodeclub.github.io/css/layout.css">
+         <link rel="stylesheet" href="https://grcodeclub.github.io/css/body.css">
+        <link rel="stylesheet" href="https://grcodeclub.github.io/css/list.css">
+        <link rel="stylesheet" href="https://grcodeclub.github.io/css/code_bg.css">
+        <link rel='icon' type='image/png' href='https://grcodeclub.github.io/file/logo/black_logo.png'>
+        <title> GrCode Club</title>
+        <link rel="stylesheet" href="https://grcodeclub.github.io/css/prism.css" />
+    </head>
+
+   <body class="website">
+        <div class="container">
+            <section class="show_desktop"> <!--Αρχή Εμφάνιση Υπολογιστή-->
+                <div class="Header"> <!--Αρχή Επικεφαλίδας-->
+                    <div class="layout">
+                            <div><img src="https://grcodeclub.github.io/file/logo_and_graphic/logo.png" class="logo"/></div>
+                            <div><h1 class="header_text"><a href="https://grcodeclub.github.io/"><span class="header_text">GrCode Club</span></a></h1></div>
+                            <div><a href="https://github.com/GrCodeClub/website/edit/main/html-css/list.html" target="_blank"><img src="https://grcodeclub.github.io/file/logo_and_graphic/edit.png"  width="60px"></a></div>
+                    </div> 
+                </div> <!--Τέλος Επικεφαλίδας-->
+           
+                <div class="Menu"> <!--Αρχή Menu-->
+                    <div id="sidebarMenu" style="  overflow: auto;">
+                        <ul class="sidebarMenuInner"></ul>
+                    </div>
+                </div><!--Τέλος Menu-->
+
+            </section> <!--Τέλος Εμφάνιση Υπολογιστή-->
+
+            <section class="show_mobile">  <!--Αρχή εμφάνιση σε κινητά-->
+                <div class="Header"> <!--Αρχή Επικεφαλίδας σε κινητά-->
+                    <div class="layout">
+                        <div><img src="https://grcodeclub.github.io/file/logo_and_graphic/logo.png" class="logo"/></div>
+                        <div><h1 class="header_text"><a href="https://grcodeclub.github.io/"><span class="header_text">GrCode Club</span></a></h1></div>
+                    </div> 
+                </div> <!--Τέλος Επικεφαλίδας σε κινητά -->
+                <input type="checkbox" class="openSidebarMenu" id="openSidebarMenu">
+                <label for="openSidebarMenu" class="sidebarIconToggle">
+                    <div class="spinner diagonal part-1"></div>
+                    <div class="spinner horizontal"></div>
+                    <div class="spinner diagonal part-2"></div>
+                </label>
+                <div id="sidebarMenu">
+                    <ul class="sidebarMenuInner"></ul>
+                </di>
+            </section> <!--Τέλος εμφάνιση σε κινητά-->
+
+            <div class="Text"> <!--Αρχή Κειμένου-->
+                <a href="../html-css.html"><img src="https://grcodeclub.github.io/file/logo_and_graphic/back.png" class="logo_back"></a>
+                <div class="text_bg"> <!-- Αρχή Background Κειμένου-->
+                    <h1 class="title">Λίστα</h1>
+
+                        <h3 class="highlight_blue">Bullets</h3>
+                        <div class="bg_preview"><div  class="line-numbers">
+                        <pre class="bg"><code class="language-html">&lt;ol>
+    &lt;il>Στοιχείο 1&lt;/il>
+    &lt;il>Στοιχείο 2&lt;/il>
+    &lt;il>Στοιχείο 3&lt;/il>                        
+&lt;/ol></code></pre></div>
+                        <ol>
+                            <li>Στοιχείο 1</li>
+                            <li>Στοιχείο 2</li>
+                            <li>Στοιχείο 3</li>
+                        </ol>
+                
+                        <div  class="line-numbers"><pre class="bg"><code class="language-html">&lt;ol style="list-style:lower-roman;">
+    &lt;li>Στοιχείο 1&lt;/li>
+    &lt;li>Στοιχείο 2&lt;/li>
+    &lt;li>Στοιχείο 3&lt;/li>
+&lt;/ol></code></pre></div>
+                        <ol style="list-style:lower-roman;">
+                            <li>Στοιχείο 1</li>
+                            <li>Στοιχείο 2</li>
+                            <li>Στοιχείο 3</li>
+                        </ol>
+
+                        <div  class="line-numbers"><pre class="bg"><code class="language-html">&lt;ol style="list-style:lower-greek;">
+    &lt;li>Στοιχείο 1&lt;/li>
+    &lt;li>Στοιχείο 2&lt;/li>
+    &lt;li>Στοιχείο 3&lt;/li>
+&lt;/ol></code></pre></div>
+                        <ol style="list-style:lower-greek;">
+                            <li>Στοιχείο 1</li>
+                            <li>Στοιχείο 2</li>
+                            <li>Στοιχείο 3</li>
+                        </ol>
+
+                        <div  class="line-numbers"><pre class="bg"><code class="language-html">&lt;ol style="list-style:lower-latin;">
+    &lt;li>Στοιχείο 1&lt;/li>
+    &lt;li>Στοιχείο 2&lt;/li>
+    &lt;li>Στοιχείο 3&lt;/li>
+&lt;/ol></code></pre></div>
+                        <ol style="list-style:lower-latin;">
+                            <li>Στοιχείο 1</li>
+                            <li>Στοιχείο 2</li>
+                            <li>Στοιχείο 3</li>
+                        </ol>
+
+                        <div  class="line-numbers"><pre class="bg"><code class="language-html">&lt;ol style="list-style:upper-latin;">
+    &lt;li>Στοιχείο 1&lt;/li>
+    &lt;li>Στοιχείο 2&lt;/li>
+    &lt;li>Στοιχείο 3&lt;/li>
+&lt;/ol></code></pre></div>
+                        <ol style="list-style:upper-latin;">
+                            <li>Στοιχείο 1</li>
+                            <li>Στοιχείο 2</li>
+                            <li>Στοιχείο 3</li>
+                        </ol>
+                        </div>
+
+                        <h3 class="highlight_blue">Bullets</h3>
+                        <div class="bg_preview"><div  class="line-numbers">
+                        <pre class="bg"><code class="language-html">&lt;ul style="list-style:circle;">
+    &lt;li>Στοιχείο 1&lt;/li>
+    &lt;li>Στοιχείο 2&lt;/li>
+    &lt;li>Στοιχείο 3&lt;/li>
+&lt;/ul></code></pre></div>
+<ul style="list-style:circle;">
+    <li>Στοιχείο 1</li>
+    <li>Στοιχείο 2</li>
+    <li>Στοιχείο 3</li>
+</ul>
+                      <div  class="line-numbers"><pre class="bg"><code class="language-html">&lt;ul style="list-style:disc;">
+    &lt;li>Στοιχείο 1&lt;/li>
+    &lt;li>Στοιχείο 2&lt;/li>
+    &lt;li>Στοιχείο 3&lt;/li>
+&lt;/ul></code></pre></div>
+<ul style="list-style:disc;">
+    <li>Στοιχείο 1</li>
+    <li>Στοιχείο 2</li>
+    <li>Στοιχείο 3</li>
+</ul>
+
+                        
+                    </div>
+                </div><!-- Τέλος Background Κειμένου-->
+            </div> <!--Τέλος Κειμένου-->
+
+        </div> <!--Τέλος container-->
+        <!-- Footer -->
+        <footer>
+            <table class="add_footer"></table>
+            <script src="https://grcodeclub.github.io/js/footer.js"></script>       
+        </footer>
+    </body>
+</html>
