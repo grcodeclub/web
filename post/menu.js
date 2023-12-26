@@ -2,6 +2,9 @@ $(document).ready(function() {
     
     var  menuLink = '<li><a href="https://grcodeclub.github.io">Αρχική Σελίδα</a></li>';
     $('.sidebarMenuInner').append(menuLink);
+
+    menuLink = ' <li><a href="https://grcodeclub.github.io/website/post/more/links.html">Links</a></li>';
+    $('.sidebarMenuInner').append(menuLink);
     
     menuLink = ' <li><a href="https://grcodeclub.github.io/website">Ιστοσελίδες</a></li>';
     $('.sidebarMenuInner').append(menuLink);
