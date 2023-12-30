@@ -1,16 +1,15 @@
-
 <html>
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=0.8">
-        <meta property="og:image" content="https://grcodeclub.github.io/file/background/4.png"/>
-        <meta property="og:title" content="Κατασκευή Ιστοσελίδων και Ορολογία">   
+        <meta property="og:image" content="https://grcodeclub.github.io/file/background/5.png"/>
+        <meta property="og:title" content="Προγραμματισμός και Ορολογία"> 
         <script src="https://grcodeclub.github.io/js/jquery.js"></script>
         <script src="https://grcodeclub.github.io/website/post/menu.js"></script>
         <link rel="stylesheet" href="https://grcodeclub.github.io/css/header_and_footer.css">
         <link rel="stylesheet" href="https://grcodeclub.github.io/css/main.css">
         <link rel="stylesheet" href="https://grcodeclub.github.io/css/text.css">
         <link rel="stylesheet" href="https://grcodeclub.github.io/css/layout.css">
-        <link rel="stylesheet" href="https://grcodeclub.github.io/css/list.css">
+        <link rel="stylesheet" href="https://grcodeclub.github.io/css/table.css">
         <link rel="stylesheet" href="https://grcodeclub.github.io/css/body.css">
         <link rel='icon' type='image/png' href='https://grcodeclub.github.io/file/logo/black_logo.png'>
         <title> GrCode Club</title>
@@ -24,7 +23,7 @@
                 <div class="layout">
                     <div><img src="https://grcodeclub.github.io/file/logo_and_graphic/logo.png" class="logo"/></div>
                     <div><h1 class="header_text"><a href="https://grcodeclub.github.io/"><span class="header_text">GrCode Club</span></a></h1></div>
-                    <td><a href="https://github.com/GrCodeClub/website/edit/main/post/more/ορολογία.html" target="_blank"><img src="https://grcodeclub.github.io/file/logo_and_graphic/edit.png"  width="60px"></a></td>
+                    <div><a href="https://github.com/GrCodeClub/website/edit/main/post/more/ορολογία.html" target="_blank"><img src="https://grcodeclub.github.io/file/logo_and_graphic/edit.png"  width="60px"></a></div>
                 </div> 
             </div> <!--ΤΕΛΟΣ Header show_desktop-->
             <div class="Menu"> <!--ΑΡΧΗ Menu show_desktop-->
@@ -54,8 +53,18 @@
 
         <div class="Text"> <!--ΑΡΧΗ Text-->
             <div class="text_bg">
-                <h1 class="title">Oρολογία</h1>
-                
+                <h1 class="title">Oρολογία
+                <div  class="search"><input type="input" class="form__field" placeholder="Αναζήτηση" id='searchInput'/></div>
+            </h1><br>
+                <table ID="table" class="style2">
+                    <tr>
+                        <td>Όρος</td>
+                        <td>Περιγραφή</td>
+                    </tr>
+              
+
+                </table>
+                <script src="https://grcodeclub.github.io/javascript/search/search_table_row_cells_0.js"></script>
         </div> <!--ΤΕΛΟΣ Text-->
 
     </div> <!--ΤΕΛΟΣ container-->
