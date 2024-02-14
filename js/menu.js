@@ -12,7 +12,7 @@ $(document).ready(function() {
     menuLink = ' <li><a href="https://grcodeclub.gr/website/html">Html</a></li>';
     $('.sidebarMenuInner').append(menuLink);
 
-    menuLink = ' <li><a href="https://grcodeclub.gr/website/php">Php</a></li>';
+    menuLink = ' <li><a href="https://grcodeclub.gr/php">Php</a></li>';
     $('.sidebarMenuInner').append(menuLink);
 
     menuLink = ' <li><a href="https://grcodeclub.gr/javascript">JavaScript</a></li>';
