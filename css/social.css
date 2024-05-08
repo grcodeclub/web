@@ -102,7 +102,7 @@
   color: blue;
 }
 
-.youtube:hover {color: rgb(255, 255, 255);}
+.youtube:hover {color: red;}
 .github:hover {
     color: rgb(255, 255, 255);
   }
