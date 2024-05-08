@@ -1,6 +1,4 @@
-.social .social-item {
-  list-style:none;
-}
+.social .social-item {list-style:none;}
 
 .social {
     position: fixed;
@@ -12,10 +10,8 @@
     background-color: black;
     color: white;
 }
-.social-item{
-    padding-top: px;
-}
- .social-item a {
+.social-item{padding-top: px;}
+.social-item a {
     display:block;
     position:relative;
     width:50px;
@@ -87,22 +83,9 @@
   transition:transform .5s;
 }
 
-.facebook:hover {
-  color: #3b5998;
-}
-.twitter:hover {
-  color: #1da1f2;
-}
-
-.instagram:hover {
-  color: #c32aa3;
-}
-
-.linkedin:hover {
-  color: blue;
-}
-
+.facebook:hover {color: #3b5998;}
+.twitter:hover {color: #1da1f2;}
+.instagram:hover {color: #c32aa3;}
+.linkedin:hover {color: blue;}
 .youtube:hover {color: red;}
-.github:hover {
-    color: rgb(255, 255, 255);
-  }
+.github:hover {color: rgb(255, 255, 255);}
