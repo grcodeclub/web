@@ -18,6 +18,12 @@ $(document).ready(function() {
     menuLink = ' <li><a href="https://grcodeclub.gr/javascript">JavaScript</a></li>';
     $('.sidebarMenuInner').append(menuLink);
 
+    menuLink = ' <li><a href="https://grcodeclub.gr/website/orologia">Oρολογία</a></li>';
+    $('.sidebarMenuInner').append(menuLink);
+
+        menuLink = ' <li><a href="https://grcodeclub.gr/website/cms/wordpress">WordPress</a></li>';
+    $('.sidebarMenuInner').append(menuLink);
+
     menuLink = ' <li><a href="https://grcodeclub.gr/website/more/">Περισσότερα</a></li>';
     $('.sidebarMenuInner').append(menuLink);
 
