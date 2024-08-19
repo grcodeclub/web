@@ -72,7 +72,7 @@
 
 
 .Text-notmenu { 
-       grid-area: Text;  
+       grid-area: Text-notmenu;  
       color: white;
       margin-top: 10px;
       margin-bottom: 100px;
