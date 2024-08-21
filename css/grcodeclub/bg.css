@@ -5,6 +5,7 @@
   background-size: cover;
   background-attachment: fixed; /* Κάνει την εικόνα σταθερή */
   background-repeat: no-repeat; /* Αποτρέπει την επανάληψη της εικόνας */
+  user-select: none; /*Αποτροπή Επιλογής Κειμένου*/
 }
 
 .edit{
@@ -14,6 +15,7 @@
   background-size: cover;
   background-attachment: fixed; /* Κάνει την εικόνα σταθερή */
   background-repeat: no-repeat; /* Αποτρέπει την επανάληψη της εικόνας */
+  user-select: none; /*Αποτροπή Επιλογής Κειμένου*/
 }
 
 
@@ -24,6 +26,7 @@
   background-size: cover;
   background-attachment: fixed; /* Κάνει την εικόνα σταθερή */
   background-repeat: no-repeat; /* Αποτρέπει την επανάληψη της εικόνας */
+   user-select: none; /*Αποτροπή Επιλογής Κειμένου*/
 }
 
 .windows{
@@ -33,6 +36,7 @@
   background-size: cover;
   background-attachment: fixed; /* Κάνει την εικόνα σταθερή */
   background-repeat: no-repeat; /* Αποτρέπει την επανάληψη της εικόνας */
+   user-select: none; /*Αποτροπή Επιλογής Κειμένου*/
 }
 
 .linux{
@@ -42,6 +46,7 @@
   background-size: cover;
   background-attachment: fixed; /* Κάνει την εικόνα σταθερή */
   background-repeat: no-repeat; /* Αποτρέπει την επανάληψη της εικόνας */
+   user-select: none; /*Αποτροπή Επιλογής Κειμένου*/
 }
 
 .network{
@@ -51,6 +56,7 @@
   background-size: cover;
   background-attachment: fixed; /* Κάνει την εικόνα σταθερή */
   background-repeat: no-repeat; /* Αποτρέπει την επανάληψη της εικόνας */
+   user-select: none; /*Αποτροπή Επιλογής Κειμένου*/
 }
 
 .system{
@@ -60,6 +66,7 @@
   background-size: cover;
   background-attachment: fixed; /* Κάνει την εικόνα σταθερή */
   background-repeat: no-repeat; /* Αποτρέπει την επανάληψη της εικόνας */
+   user-select: none; /*Αποτροπή Επιλογής Κειμένου*/
 }
 
 .website{
@@ -69,6 +76,7 @@
   background-size: cover;
   background-attachment: fixed; /* Κάνει την εικόνα σταθερή */
   background-repeat: no-repeat; /* Αποτρέπει την επανάληψη της εικόνας */
+   user-select: none; /*Αποτροπή Επιλογής Κειμένου*/
 }
 
 
@@ -79,6 +87,7 @@
   background-size: cover;
   background-attachment: fixed; /* Κάνει την εικόνα σταθερή */
   background-repeat: no-repeat; /* Αποτρέπει την επανάληψη της εικόνας */
+   user-select: none; /*Αποτροπή Επιλογής Κειμένου*/
 }
 
 
@@ -90,4 +99,5 @@
   background-size: cover;
   background-attachment: fixed; /* Κάνει την εικόνα σταθερή */
   background-repeat: no-repeat; /* Αποτρέπει την επανάληψη της εικόνας */
+   user-select: none; /*Αποτροπή Επιλογής Κειμένου*/
 }
