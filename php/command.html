@@ -1,0 +1,87 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=0.8">
+        <meta property="og:image" content="https://grcodeclub.github.io/file/background/5.png"/>
+        <meta property="og:title" content="GrCode Club | Php - Εντολές">
+        <script src="https://grcodeclub.github.io/js/jquery.js"></script>
+        <script src="https://grcodeclub.github.io/web/js/menu.js"></script>
+        <script src="https://grcodeclub.github.io/js/prism.js"></script>
+        <script src="https://grcodeclub.github.io/js/add/head.js"></script>                                                           
+    </head>
+
+    <body class="website">
+        <div class="container">
+            <div id="add_headder_and_menu"></div><script src="https://grcodeclub.github.io/js/add/headder_and_menu.js"></script>
+            <div class="Text"> <!--Αρχή Κειμένου-->
+                <a href="https://grcodeclub.gr/php/"><img class="logo_back"></a> <script src="https://grcodeclub.github.io/js/add/logo-back.js"></script>
+                <div class="text_bg"> <!-- Αρχή Background Κειμένου-->
+                    <h1 class="title">Php Εντολές</h1>
+
+                    <h3 class="highlight_black">Έξοδος κειμένου</h3>
+                   <div class="bg_preview">
+                    <div  class="line-numbers"><pre class="code_editor"><code class="language-php">echo "Hello, world!";</code></pre></div></div>
+
+                    <h3 class="highlight_black">Δήλωση μεταβλητής</h3>
+                   <div class="bg_preview">
+                    <div  class="line-numbers"><pre class="code_editor"><code class="language-php">$age = 30;
+$name = "John";</code></pre></div></div>
+
+                    <h3 class="highlight_black">If</h3>
+                   <div class="bg_preview">
+                    <div  class="line-numbers"><pre class="code_editor"><code class="language-php">$grade = 85;
+if ($grade > 90) {
+    echo "Excellent performance!";
+} elseif ($grade > 70) {
+    echo "Good performance.";
+} else {
+    echo "Needs improvement.";
+}</code></pre></div></div>
+
+                    <h3 class="highlight_black">Επανάληψη While</h3>
+                    <div class="bg_preview">
+                    <div  class="line-numbers"><pre class="code_editor"><code class="language-php">$number = 1;
+while ($number <= 5) {
+    echo "Number: " . $number . "<br>";
+    $number++;
+}</code></pre></div></div>
+
+                    <h3 class="highlight_black">Επανάληψη for</h3>
+                    <div class="bg_preview">
+                    <div  class="line-numbers"><pre class="code_editor"><code class="language-php">for ($i = 1; $i <= 5; $i++) {
+    echo "Number: " . $i . "<br>";
+}</code></pre></div></div>
+
+                    <h3 class="highlight_black">Λίστα</h3>
+                   <div class="bg_preview">
+                    <div  class="line-numbers"><pre class="code_editor"><code class="language-php">$colors = array("Red", "Green", "Blue");</code></pre></div></div>
+
+                    <h3 class="highlight_black">Επανάληψη μέσω λίστας</h3>
+                    <div class="bg_preview">
+                    <div  class="line-numbers"><pre class="code_editor"><code class="language-php">$fruits = array("Apple", "Orange", "Apricot");
+foreach ($fruits as $fruit) {
+    echo $fruit . "<br>";
+}</code></pre></div></div>
+
+                    <h3 class="highlight_black">Συνάρτηση</h3>
+                    <div class="bg_preview">
+                    <div  class="line-numbers"><pre class="code_editor"><code class="language-php">function greet($name) {
+    echo "Good morning, " . $name . "!";
+}
+
+greet("Dimitris");</code></pre></div></div>
+
+
+                    <h3 class="highlight_black">Ενσωμάτωση HTML στο PHP</h3>
+                    <div class="bg_preview">
+                    <div  class="line-numbers"><pre class="code_editor"><code class="language-php">$text = "<p>This is a text embedded in HTML.</p>";
+echo $text;</code></pre></div></div>
+
+                    </div><!-- Τέλος Background Κειμένου-->
+            </div> <!--Τέλος Κειμένου-->
+
+        </div> <!--Τέλος container-->
+        
+        <!-- Footer -->
+        <footer id="add-social"></footer><script src="https://grcodeclub.github.io/js/add/social.js"></script>
+    </body>
+</html>

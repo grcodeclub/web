@@ -1,0 +1,51 @@
+<html>
+    <head>
+        <meta property="og:image" content="https://grcodeclub.github.io/file/background/5.png"/>
+        <meta property="og:title" content="GrCode Club | Php - SQL">
+        <script src="https://grcodeclub.github.io/js/jquery.js"></script>
+        <script src="https://grcodeclub.github.io/web/js/menu.js"></script>
+        <script src="https://grcodeclub.github.io/js/prism.js"></script>
+       <script src="https://grcodeclub.github.io/js/add/head.js"></script>
+    </head>
+
+    <body class="website">
+        <div class="container">
+            <div id="add_headder_and_menu"></div><script src="https://grcodeclub.github.io/js/add/headder_and_menu.js"></script>
+            <div class="Text"> <!--Αρχή Κειμένου-->
+                <a href="https://grcodeclub.gr/php/"><img class="logo_back"></a> <script src="https://grcodeclub.github.io/js/add/logo-back.js"></script>
+                <div class="text_bg"> <!-- Αρχή Background Κειμένου-->
+                    <h1 class="title">Στοιχεία του υπολογιστή</h1>
+                    <p>Πληροφορίες του διακομιστή (Server Information):Μπορείς να χρησιμοποιήσεις την phpinfo() για να εμφανίσεις 
+                        πληροφορίες σχετικά με τη ρύθμιση παραμέτρων της PHP, το λειτουργικό σύστημα, τις εκδόσεις των εγκατεστημένων 
+                        επεκτάσεων και πολλά άλλα:</p>
+                    <div class="bg_preview"><div  class="line-numbers"><pre class="code_editor">
+<code class="language-php">&lt;?php
+    phpinfo();
+?></code></pre></div></div>
+
+                    <p>Εμφάνιση λειτουργικού συστήματος</p>
+                    <div class="bg_preview"><div  class="line-numbers"><pre class="code_editor">
+<code class="language-php">echo 'Λειτουργικό σύστημα: ' . php_uname('s') . PHP_EOL;</code></pre></div></div>
+
+                    <p>Εμφάνιση ονόματος υπολογιστή</p>
+                    <div class="bg_preview"><div  class="line-numbers"><pre class="code_editor">
+<code class="language-php">echo 'Όνομα υπολογιστή: ' . php_uname('n') . PHP_EOL;</code></pre></div></div>
+
+                    <p>Εμφάνιση έκδοσης λειτουργικού συστήματος</p>
+                    <div class="bg_preview"><div  class="line-numbers"><pre class="code_editor">
+<code class="language-php">echo 'Έκδοση λειτουργικού συστήματος: ' . php_uname('v') . PHP_EOL;</code></pre></div></div>
+
+                    <p>Εμφάνιση αρχιτεκτονικής υπολογιστή</p>
+                    <div class="bg_preview"><div  class="line-numbers"><pre class="code_editor">
+<code class="language-php">echo 'Αρχιτεκτονική υπολογιστή: ' . php_uname('m') . PHP_EOL;</code></pre></div></div>
+                                    
+
+                </div><!-- Τέλος Background Κειμένου-->
+            </div> <!--Τέλος Κειμένου-->
+
+        </div> <!--Τέλος container-->
+        
+        <!-- Footer -->
+        <footer id="add-social"></footer><script src="https://grcodeclub.github.io/js/add/social.js"></script>
+    </body>
+</html>
