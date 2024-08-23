@@ -20,17 +20,16 @@ caption{
 /* Style 2 */
 
 table.style2 {
-border-spacing: 10px;
-color: white;
-background-color: rgba(0, 0, 0, 0.418);
-border-radius: 20px;
-width: 100%;
-overflow-x: auto;
+  border-spacing: 10px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.418);
+  border-radius: 20px;
+  width: 100%;
+  overflow-x: auto;
+  display: block;
 }
 
-td.style2{
-        width: auto;
-    } 
+td.style2 {width: auto;} 
 
 #table {
     width: 100%;
