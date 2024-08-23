@@ -28,10 +28,9 @@ width: 100%;
 overflow-x: auto;
 }
 
-tr.style2:hover {
-  background-color: rgba(0, 0, 0, 0.692);
-  color: white;
-}
+td.style2{
+        width: auto;
+    } 
 
 #table {
     width: 100%;
