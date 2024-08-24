@@ -6,7 +6,7 @@
     border-radius: 5px; /* Στρογγυλεμένες γωνίες */
     color: #000000; /* Χρώμα κειμένου (εδώ το χρώμα του εικονιδίου) */
     cursor: pointer; /* Χέρι κατά το hover */
-    font-size: 20px; /* Μέγεθος εικονιδίου */
+    font-size: 16px; /* Μέγεθος εικονιδίου */
     padding: 10px 15px; /* Εσωτερικό περιθώριο */
     transition: background-color 0.3s, transform 0.3s; /* Ομαλές μεταβάσεις για χρώμα και κλίμακα */
     display: inline-flex; /* Τοποθέτηση του εικονιδίου κεντραρισμένα */
