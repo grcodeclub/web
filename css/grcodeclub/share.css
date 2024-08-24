@@ -1,6 +1,22 @@
-
+@media only screen and (max-width: 720px) {
      /* Κουμπί Share */
 .share-button {
+    background-color: #ffffff; /* Χρώμα φόντου κουμπιού */
+    border: none; /* Αφαίρεση περιγράμματος */
+    border-radius: 5px; /* Στρογγυλεμένες γωνίες */
+    color: #000000; /* Χρώμα κειμένου (εδώ το χρώμα του εικονιδίου) */
+    cursor: pointer; /* Χέρι κατά το hover */
+    font-size: 10px; /* Μέγεθος εικονιδίου */
+    padding: 10px 15px; /* Εσωτερικό περιθώριο */
+    transition: background-color 0.3s, transform 0.3s; /* Ομαλές μεταβάσεις για χρώμα και κλίμακα */
+    display: inline-flex; /* Τοποθέτηση του εικονιδίου κεντραρισμένα */
+    align-items: center;
+    justify-content: center;
+}
+}
+
+@media only screen and (min-width: 720px) {
+     .share-button {
     background-color: #ffffff; /* Χρώμα φόντου κουμπιού */
     border: none; /* Αφαίρεση περιγράμματος */
     border-radius: 5px; /* Στρογγυλεμένες γωνίες */
@@ -12,6 +28,7 @@
     display: inline-flex; /* Τοποθέτηση του εικονιδίου κεντραρισμένα */
     align-items: center;
     justify-content: center;
+}
 }
 
 /* Εφέ κατά το hover */
