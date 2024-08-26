@@ -29,8 +29,6 @@ table.style2 {
   display: block;
 }
 
-td.style2 {width: auto;} 
-
 #table {
     width: 100%;
     border-collapse: collapse; /* Ενοποίηση περιγραμμάτων κελιών */
