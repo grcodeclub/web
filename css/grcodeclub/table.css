@@ -28,6 +28,8 @@ table.style2 {
   overflow-x: auto;
   display: block;
 }
+/* td.style2 {width: auto;}  */
+
 
 #table {
     width: 100%;
