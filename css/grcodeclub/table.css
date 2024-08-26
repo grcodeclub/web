@@ -26,7 +26,7 @@ table.style2 {
   border-radius: 20px;
   width: 100%;
   overflow-x: auto;
-  display: block;
+  /* display: block; */
 }
 /* td.style2 {width: auto;}  */
 
