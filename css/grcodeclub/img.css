@@ -1,6 +1,19 @@
+/* 
 @media only screen and (max-width: 720px) {
   img.mobile_img{
     width: 200px;
     height: 200px;
   }
+}
+*/
+
+img.mobile_img{
+	max-width: 100%;
+}
+
+@media only print {
+	img.mobile_img {
+		max-height: 100vh;
+		object-fit: contain;
+	}
 }
