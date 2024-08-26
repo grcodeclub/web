@@ -7,12 +7,12 @@
 }
 */
 
-img.mobile_img{
+img{
 	max-width: 100%;
 }
 
 @media only print {
-	img.mobile_img {
+	img {
 		max-height: 100vh;
 		object-fit: contain;
 	}
