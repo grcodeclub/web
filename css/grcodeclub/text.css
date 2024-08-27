@@ -1,6 +1,6 @@
-a:focus {
-        outline: none; /* Αφαιρεί το περίγραμμα */
-    background-color: transparent; /* Αφαιρεί το χρώμα φόντου */
+a:active {
+    background-color: transparent; /* Αφαιρεί το μπλε χρώμα φόντου κατά το κλικ */
+    outline: none; /* Αφαιρεί το μπλε περίγραμμα κατά το κλικ */
 }
 
 div.text_bg{
