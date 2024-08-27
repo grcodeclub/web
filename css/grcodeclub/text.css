@@ -1,3 +1,6 @@
+a:focus {
+    outline: none; /* Αφαιρεί το περίγραμμα κατά την εστίαση */
+}
 
 div.text_bg{
     background-color: rgba(0, 0, 0, 0.658);
