@@ -6,7 +6,9 @@
     }
 }
 
-
+h1.back_page{
+    display: inline-block;
+}
 div.text_bg{
     background-color: rgba(0, 0, 0, 0.658);
     color: white;
