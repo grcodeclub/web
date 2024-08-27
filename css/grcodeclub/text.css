@@ -1,7 +1,11 @@
-a:active {
-    background-color: transparent; /* Αφαιρεί το μπλε χρώμα φόντου κατά το κλικ */
-    outline: none; /* Αφαιρεί το μπλε περίγραμμα κατά το κλικ */
+@media (pointer: coarse) {
+    a:active {
+        background-color: transparent; /* Αφαιρεί το μπλε χρώμα φόντου */
+        color: inherit; /* Επαναφέρει το χρώμα κειμένου */
+        outline: none; /* Αφαιρεί το μπλε περίγραμμα */
+    }
 }
+
 
 div.text_bg{
     background-color: rgba(0, 0, 0, 0.658);
