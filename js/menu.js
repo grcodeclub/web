@@ -11,7 +11,7 @@ window.onload = function() {
         '<li><a href="https://grcodeclub.gr/web/cms/wordpress">WordPress</a></li>',
         '<li><a href="https://grcodeclub.gr/web/more/">Περισσότερα</a></li>',
         '<li><a href="https://grcodeclub.gr/programming/">Γλώσσες Προγραμματισμού</a></li>',
-        '<li style="height: 200px;"></li>';
+        '<li style="height: 200px;"></li>'
     ];
     
     var $sidebarMenuInners = document.querySelectorAll('.sidebarMenuInner');
