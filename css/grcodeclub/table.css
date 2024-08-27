@@ -26,10 +26,15 @@ caption{
 
 
   table.style2 {
-    width: 100%; /* Ο πίνακας θα καταλαμβάνει το 100% του διαθέσιμου πλάτους του container */
-    max-width: 100%; /* Εξασφαλίζει ότι το πλάτος του πίνακα δεν θα υπερβεί το πλάτος του container */
-    border-collapse: collapse; /* Ενοποίηση των περιγραμμάτων των κελιών για πιο καθαρή εκτύπωση */
+  border-spacing: 10px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.418);
+  border-radius: 20px;
+  max-width: 100%;
+  overflow-x: auto;
+  /* display: block; */
   }
+
 
   /* Προαιρετικά: Ρύθμιση της απόστασης των κελιών για εκτύπωση */
   table.style2 td {
