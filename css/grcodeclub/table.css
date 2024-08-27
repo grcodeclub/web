@@ -33,6 +33,8 @@ caption{
   max-width: 100%;
   overflow-x: auto;
   /* display: block; */
+      table-layout: fixed; /* Εξασφαλίζει ότι οι στήλες δεν ξεφεύγουν από το πλάτος του πίνακα */
+
   }
 
 
