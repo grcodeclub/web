@@ -1,3 +1,8 @@
+.link_open::before     {content: "🔗";}
+.link_open             {text-decoration: none;}
+h1.back_page           {display: inline-block;}
+
+
 @media (pointer: coarse) {
     a:active {
         background-color: transparent; /* Αφαιρεί το μπλε χρώμα φόντου */
@@ -6,9 +11,6 @@
     }
 }
 
-h1.back_page{
-    display: inline-block;
-}
 div.text_bg{
     background-color: rgba(0, 0, 0, 0.658);
     color: white;
@@ -65,24 +67,24 @@ code{
   }
   
   section.tmp{
-  background-color: white;
-  margin-left: 10%;
-  margin-right: 10%;
+      background-color: white;
+      margin-left: 10%;
+      margin-right: 10%;
   }
   
   a{
-  text-decoration: none;
-  color: white;
+      text-decoration: none;
+      color: white;
   }
   
   p{
-  text-align: justify;
-  margin-left: 10px;
-  margin-right: 10px;
-  font-size: 15px;     
+      text-align: justify;
+      margin-left: 10px;
+      margin-right: 10px;
+      font-size: 15px;     
   }
   
   p.cmd{
-  margin-left: 10px;
-  margin-right: 10px;
+      margin-left: 10px;
+      margin-right: 10px;
   }
