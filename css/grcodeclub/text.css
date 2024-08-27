@@ -1,5 +1,6 @@
 a:focus {
-    outline: none; /* Αφαιρεί το περίγραμμα κατά την εστίαση */
+        outline: none; /* Αφαιρεί το περίγραμμα */
+    background-color: transparent; /* Αφαιρεί το χρώμα φόντου */
 }
 
 div.text_bg{
