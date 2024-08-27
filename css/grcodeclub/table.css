@@ -16,24 +16,24 @@ caption{
   font-size: 35px;
   }
 
-  
-/* Style 2 */
-
-table.style2 {
-  border-spacing: 10px;
-  color: white;
-  background-color: rgba(0, 0, 0, 0.418);
-  border-radius: 20px;
-  width: 100%;
-  overflow-x: auto;
-  /* display: block; */
-}
-/* td.style2 {width: auto;}  */
-
-
 #table {
     width: 100%;
     border-collapse: collapse; /* Ενοποίηση περιγραμμάτων κελιών */
 }
 
 #table td {padding: 10px;}
+
+
+@media only print {
+
+  table.style2 {
+    width: 100%; /* Ο πίνακας θα καταλαμβάνει το 100% του διαθέσιμου πλάτους του container */
+    max-width: 100%; /* Εξασφαλίζει ότι το πλάτος του πίνακα δεν θα υπερβεί το πλάτος του container */
+    border-collapse: collapse; /* Ενοποίηση των περιγραμμάτων των κελιών για πιο καθαρή εκτύπωση */
+  }
+
+  /* Προαιρετικά: Ρύθμιση της απόστασης των κελιών για εκτύπωση */
+  table.style2 td {
+    padding: 8px; /* Μείωση του padding για καλύτερη προσαρμογή στην εκτύπωση */
+  }
+
