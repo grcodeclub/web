@@ -24,7 +24,6 @@ caption{
 #table td {padding: 10px;}
 
 
-@media only print {
 
   table.style2 {
     width: 100%; /* Ο πίνακας θα καταλαμβάνει το 100% του διαθέσιμου πλάτους του container */
@@ -37,4 +36,4 @@ caption{
     padding: 8px; /* Μείωση του padding για καλύτερη προσαρμογή στην εκτύπωση */
   }
 
-}
+
