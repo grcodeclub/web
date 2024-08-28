@@ -28,7 +28,7 @@ body{
  
 }
 
-.windows{
+#windows{
   background-image: url("https://grcodeclub.gr/files-page/background/windows.jpg");
   margin: 0;
   font-family: "Arial";
