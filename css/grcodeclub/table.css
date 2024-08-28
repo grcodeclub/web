@@ -33,7 +33,7 @@ caption{
 
 
 @media only screen and (max-width: 720px) {
-    table.style2 {
+   #search_table_page {
       border-spacing: 10px;
       color: white;
       background-color: rgba(0, 0, 0, 0.418);
