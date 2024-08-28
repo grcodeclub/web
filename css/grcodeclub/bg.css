@@ -38,7 +38,7 @@ body{
  
 }
 
-.linux{
+#linux{
   background-image: url("https://grcodeclub.gr/files-page/background/linux.jpg");
   margin: 0;
   font-family: "Arial";
