@@ -16,12 +16,12 @@ caption{
   font-size: 35px;
   }
 
-#table {
+#search_table_page {
     width: 100%;
     border-collapse: collapse; /* Ενοποίηση περιγραμμάτων κελιών */
 }
 
-#table td {padding: 10px;}
+#search_table_page td {padding: 10px;}
 
 
 
