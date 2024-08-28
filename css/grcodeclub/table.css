@@ -19,9 +19,14 @@ caption{
 #search_table_page {
     width: 100%;
     border-collapse: collapse; /* Ενοποίηση περιγραμμάτων κελιών */
+   padding: 8px; /* Μείωση του padding για καλύτερη προσαρμογή στην εκτύπωση */
+      overflow-wrap: break-word; /* Σπάσιμο μεγάλων λέξεων */
 }
 
-#search_table_page td {padding: 10px;}
+#search_table_page td {
+  padding: 10px;
+  padding: 8px; /* Μείωση του padding για καλύτερη προσαρμογή στην εκτύπωση */
+}
 
 
 
@@ -29,31 +34,19 @@ caption{
 
 @media only screen and (max-width: 720px) {
     table.style2 {
-  border-spacing: 10px;
-  color: white;
-  background-color: rgba(0, 0, 0, 0.418);
-  border-radius: 20px;
-  max-width: 100%;
-  overflow-x: auto;
-  /* display: block; */
+      border-spacing: 10px;
+      color: white;
+      background-color: rgba(0, 0, 0, 0.418);
+      border-radius: 20px;
+      max-width: 100%;
+      overflow-x: auto;
+      /* display: block; */
       table-layout: fixed; /* Εξασφαλίζει ότι οι στήλες δεν ξεφεύγουν από το πλάτος του πίνακα */
 
   }
 
-
-  /* Προαιρετικά: Ρύθμιση της απόστασης των κελιών για εκτύπωση */
-  table.style2 td {
-    padding: 8px; /* Μείωση του padding για καλύτερη προσαρμογή στην εκτύπωση */
-      overflow-wrap: break-word; /* Σπάσιμο μεγάλων λέξεων */
-
-  }
-}
-
-
-
-
 @media only screen and (min-width: 720px) {
-    table.style2 {
+    #search_table_page.style2 {
   border-spacing: 10px;
   color: white;
   background-color: rgba(0, 0, 0, 0.418);
@@ -65,9 +58,5 @@ caption{
   }
 
 
-  /* Προαιρετικά: Ρύθμιση της απόστασης των κελιών για εκτύπωση */
-  table.style2 td {
-    padding: 8px; /* Μείωση του padding για καλύτερη προσαρμογή στην εκτύπωση */
-  }
-}
+
 
