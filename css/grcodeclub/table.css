@@ -33,7 +33,7 @@ caption{
 
 
 @media only screen and (max-width: 720px) {
-   #search_table_page,, #table_page {
+   #search_table_page, #table_page {
       border-spacing: 10px;
       color: white;
       background-color: rgba(0, 0, 0, 0.418);
@@ -47,7 +47,7 @@ caption{
 }
 
 @media only screen and (min-width: 720px) {
-    #search_table_page, , #table_page {
+    #search_table_page, #table_page {
   border-spacing: 10px;
   color: white;
   background-color: rgba(0, 0, 0, 0.418);
