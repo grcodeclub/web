@@ -1,3 +1,10 @@
+           select option { 
+                background-color: #000000; /* Χρώμα φόντου των επιλογών */
+                border: none;
+                border-radius: 10px;
+                color: rgb(255, 255, 255);
+            }
+
 .appearance{
   display:grid;
   height:36px;
