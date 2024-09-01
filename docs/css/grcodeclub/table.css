@@ -16,7 +16,7 @@ caption{
   font-size: 35px;
   }
 
-#search_table_page,search_table_page_3_input,
+#search_table_page, #search_table_page_3_input,
 #table_page {
     width: 100%;
     border-collapse: collapse; /* Ενοποίηση περιγραμμάτων κελιών */
