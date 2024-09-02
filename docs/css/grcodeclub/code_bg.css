@@ -5,6 +5,16 @@
                 color: rgb(255, 255, 255);
             }
 
+select {
+    width: 100%;
+    max-width: 100%; /* Βεβαιώνει ότι το select δεν υπερβαίνει το πλάτος του γονικού div */
+    box-sizing: border-box; /* Υπολογίζει το padding και το border στο συνολικό πλάτος */
+    background-color: #000000; /* Χρώμα φόντου των επιλογών */
+    border: none;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+}
+
 .appearance{
   display:grid;
   height:36px;
