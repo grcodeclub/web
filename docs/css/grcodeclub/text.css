@@ -50,6 +50,10 @@ code{
     margin: auto;
     border-radius: 5px;
   }
+
+.link span {
+    font-size: 18px;
+}
   
   a.link:hover {
     padding: 1px 1px 1px 1px;
