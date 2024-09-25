@@ -27,6 +27,8 @@ select {
   margin-left: 10px;
   margin-right: 10px;
   padding-bottom: 2px;
+            max-width: 80vw; /* Μέγιστο πλάτος ίσο με το πλάτος της οθόνης */
+                overflow-x: auto; /* Χρήση οριζόντιου scroll όταν είναι απαραίτητο */
 }
 
 .terminal{
