@@ -1,27 +1,21 @@
 div.search{
  background-color: #000000d5; 
-  text-align: center; }
+ text-align: center; }
 
-
-html {
-  scroll-behavior: smooth;
-}
-
+html {scroll-behavior: smooth;}
+.hidden { display: none; }
 @media only screen and (min-width: 720px) {
   .show_mobile  {display: none;}
   .show_desktop   {display: block;}
   .sidebarMenuInner{max-height: 100%; }
 }
 
-
-/* Στυλ για κινητές συσκευές */
-
 @media only screen and (max-width: 720px) {
   .show_mobile {display: block;}
   .show_desktop {display: none;}
 } 
 
-   /*Text Input*/
+ /*Text Input*/
     
     .form__field {
       font-family: inherit;
