@@ -3,6 +3,19 @@
         <meta property="og:image" content="https://grcodeclub.github.io/files-page/preview/website.png">
         <meta property="og:title" content="Website | Font Awesome">
         <script src="https://grcodeclub.github.io/js/add/data.js"></script>
+        <style>
+            .checkbox-container {
+    display: flex;
+    flex-wrap: wrap; /* Επιτρέπει την αλλαγή γραμμής */
+    gap: 10px; /* Απόσταση μεταξύ των στοιχείων */
+}
+
+.checkbox-container label {
+    flex: 1 1 calc(33.33% - 10px); /* Το 33.33% αφήνει χώρο για 3 στήλες, αφαιρώντας την απόσταση */
+    box-sizing: border-box; /* Διασφαλίζει ότι το padding και το border περιλαμβάνονται στη συνολική πλάτος */
+}
+
+        </style>
     </head>
 
     <body id="website">
@@ -16,14 +29,16 @@
                         </div>
                     </h1>
                     <h3>Επιλογή Κατηγοριών:</h3>
-                    <label><input type="checkbox" class="category-checkbox" value="Βασικά" checked> Βασικά</label><br>
-                    <label><input type="checkbox" class="category-checkbox" value="User Interface" checked> User Interface</label><br>
-                    <label><input type="checkbox" class="category-checkbox" value="Επικοινωνία" checked> Επικοινωνία</label><br>
-                    <label><input type="checkbox" class="category-checkbox" value="Ρυθμίσεις" checked> Ρυθμίσεις</label><br>
-                    <label><input type="checkbox" class="category-checkbox" value="Διαγραφή" checked> Διαγραφή</label><br>
-                    <label><input type="checkbox" class="category-checkbox" value="Κοινωνικά Δίκτυα" checked> Κοινωνικά Δίκτυα</label><br>
-                    <label><input type="checkbox" class="category-checkbox" value="Ασφάλεια" checked> Ασφάλεια</label><br>
-                    <label><input type="checkbox" class="category-checkbox" value="Χρήματα" checked> Χρήματα</label><br><br>
+                    <div class="checkbox-container">
+                        <label><input type="checkbox" class="category-checkbox" value="Βασικά" checked> Βασικά</label>
+                        <label><input type="checkbox" class="category-checkbox" value="User Interface" checked> User Interface</label>
+                        <label><input type="checkbox" class="category-checkbox" value="Επικοινωνία" checked> Επικοινωνία</label>
+                        <label><input type="checkbox" class="category-checkbox" value="Ρυθμίσεις" checked> Ρυθμίσεις</label>
+                        <label><input type="checkbox" class="category-checkbox" value="Διαγραφή" checked> Διαγραφή</label>
+                        <label><input type="checkbox" class="category-checkbox" value="Κοινωνικά Δίκτυα" checked> Κοινωνικά Δίκτυα</label>
+                        <label><input type="checkbox" class="category-checkbox" value="Ασφάλεια" checked> Ασφάλεια</label>
+                        <label><input type="checkbox" class="category-checkbox" value="Χρήματα" checked> Χρήματα</label>
+                    </div>
                     
                     <table id="search_table_page">      
                         <tr id="title-table"><td>Κατηγορία</td><td>Όνομα</td><td>font-awesome</td><td>Εικονίδιο</td></tr>
@@ -36,6 +51,26 @@
                         <tr><td>Κοινωνικά Δίκτυα</td><td>Twitter</td><td><code>fab fa-twitter</code></td><td><i class="fab fa-twitter"></i></td></tr>
                         <tr><td>Ασφάλεια</td><td>Lock</td><td><code>fas fa-lock</code></td><td><i class="fas fa-lock"></i></td></tr>
                         <tr><td>Χρήματα</td><td>Dollar Sign</td><td><code>fas fa-dollar-sign</code></td><td><i class="fas fa-dollar-sign"></i></td></tr>                    
+                        <tr><td>Μέσα Μεταφοράς</td><td>Car</td><td><code>fas fa-car</code></td><td><i class="fas fa-car"></i></td></tr>
+                        <tr><td>Κτήριο</td><td>Building</td><td><code>fas fa-building</code></td><td><i class="fas fa-building"></i></td></tr>
+                        <tr><td>Βιβλία</td><td>Book</td><td><code>fas fa-book</code></td><td><i class="fas fa-book"></i></td></tr>
+                        <tr><td>Χάρτης</td><td>Map</td><td><code>fas fa-map</code></td><td><i class="fas fa-map"></i></td></tr>
+                        <tr><td>Αναζήτηση</td><td>Search</td><td><code>fas fa-search</code></td><td><i class="fas fa-search"></i></td></tr>
+                        <tr><td>Φωτογραφία</td><td>Image</td><td><code>fas fa-image</code></td><td><i class="fas fa-image"></i></td></tr>
+                        <tr><td>Αρχείο</td><td>File</td><td><code>fas fa-file</code></td><td><i class="fas fa-file"></i></td></tr>
+                        <tr><td>Κουμπί</td><td>Hand Pointer</td><td><code>fas fa-hand-pointer</code></td><td><i class="fas fa-hand-pointer"></i></td></tr>
+                        <tr><td>Ρολόι</td><td>Clock</td><td><code>fas fa-clock</code></td><td><i class="fas fa-clock"></i></td></tr>
+                        <tr><td>Βίντεο</td><td>Video</td><td><code>fas fa-video</code></td><td><i class="fas fa-video"></i></td></tr>
+                        <tr><td>Μέσα Μεταφοράς</td><td>Car</td><td><code>fas fa-car</code></td><td><i class="fas fa-car"></i></td></tr>
+                        <tr><td>Κτήριο</td><td>Building</td><td><code>fas fa-building</code></td><td><i class="fas fa-building"></i></td></tr>
+                        <tr><td>Βιβλία</td><td>Book</td><td><code>fas fa-book</code></td><td><i class="fas fa-book"></i></td></tr>
+                        <tr><td>Χάρτης</td><td>Map</td><td><code>fas fa-map</code></td><td><i class="fas fa-map"></i></td></tr>
+                        <tr><td>Αναζήτηση</td><td>Search</td><td><code>fas fa-search</code></td><td><i class="fas fa-search"></i></td></tr>
+                        <tr><td>Φωτογραφία</td><td>Image</td><td><code>fas fa-image</code></td><td><i class="fas fa-image"></i></td></tr>
+                        <tr><td>Αρχείο</td><td>File</td><td><code>fas fa-file</code></td><td><i class="fas fa-file"></i></td></tr>
+                        <tr><td>Κουμπί</td><td>Hand Pointer</td><td><code>fas fa-hand-pointer</code></td><td><i class="fas fa-hand-pointer"></i></td></tr>
+                        <tr><td>Ρολόι</td><td>Clock</td><td><code>fas fa-clock</code></td><td><i class="fas fa-clock"></i></td></tr>
+                        <tr><td>Βίντεο</td><td>Video</td><td><code>fas fa-video</code></td><td><i class="fas fa-video"></i></td></tr>                                                
                     </table>
                     <div class="pagination" id="pagination"></div>
                 </div><!-- Τέλος Background Κειμένου-->
