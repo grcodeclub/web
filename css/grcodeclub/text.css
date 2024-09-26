@@ -1,0 +1,94 @@
+.link_open::before     {content: "🔗";}
+.link_open             {text-decoration: none;}
+h1.back_page           {display: inline-block;}
+
+
+@media (pointer: coarse) {
+    a:active {
+        background-color: transparent; /* Αφαιρεί το μπλε χρώμα φόντου */
+        color: inherit; /* Επαναφέρει το χρώμα κειμένου */
+        outline: none; /* Αφαιρεί το μπλε περίγραμμα */
+    }
+}
+
+div.text_bg{
+    background-color: rgba(0, 0, 0, 0.658);
+    color: white;
+    border-radius: 20px;
+    text-align: justify;
+    margin-bottom: 100px;
+    padding-bottom: 20px;
+  }
+  
+  div.cmd{
+    background-color: rgb(3, 3, 41);
+    color: white;
+    border-radius: 20px;
+  }
+  
+  h1.title{
+    text-align:center; 
+    background-color: black; 
+    border-top-left-radius: 10px; 
+    border-top-right-radius: 10px;
+  }
+  
+  .highlight_black{
+    padding-left: 20px;
+    background-color: #000000b0;
+    }
+  
+code{
+     font-size: 15px;
+}
+  
+ a.link {
+    padding: 4px 4px 4px 4px;
+    background-color: rgb(0, 0, 0);
+    color:white;
+    min-width: 80px;
+    margin: auto;
+    border-radius: 5px;
+  }
+
+.link span {
+    font-size: 18px;
+}
+  
+  a.link:hover {
+    padding: 1px 1px 1px 1px;
+    color: black;
+    background-color: rgb(255, 255, 255);
+    min-width: 80px;
+    margin: auto;
+    border-radius: 5px;
+  }
+  
+  h2.title{
+    text-align: center;
+    background-color: white;
+    margin-top: 10px;
+  }
+  
+  section.tmp{
+      background-color: white;
+      margin-left: 10%;
+      margin-right: 10%;
+  }
+  
+  a{
+      text-decoration: none;
+      color: white;
+  }
+  
+  p{
+      text-align: justify;
+      margin-left: 10px;
+      margin-right: 10px;
+      font-size: 15px;     
+  }
+  
+  p.cmd{
+      margin-left: 10px;
+      margin-right: 10px;
+  }
