@@ -1,5 +1,5 @@
-.link_open::before     {content: "🔗";}
-.link_open             {text-decoration: none;}
+.link_here::before     {content: "🔗";}
+.link_here             {text-decoration: none;}
 h1.back_page           {display: inline-block;}
 
 
@@ -63,6 +63,9 @@ code{
     margin: auto;
     border-radius: 5px;
   }
+
+
+
   
   h2.title{
     text-align: center;
