@@ -16,7 +16,6 @@ div.text_bg {
     border-radius: 20px;
     text-align: justify;
     margin-bottom: 100px;
-    padding: 20px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.7); /* Σκιά για εφέ ανύψωσης */
 }
 
