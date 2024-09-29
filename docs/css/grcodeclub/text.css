@@ -60,8 +60,6 @@ a.link:hover {
     margin: auto;
     border-radius: 5px;
 }
-
-
 h2.title {
     text-align: center;
     background-color: #262626; /* Σκούρο φόντο */
@@ -78,6 +76,11 @@ section.tmp {
     border-radius: 15px;
 }
 
+a {
+    text-decoration: none;
+    color: #f0f0f0; /* Ανοιχτό γκρι για συνδέσμους */
+}
+
 p {
     text-align: justify;
     margin-left: 10px;
@@ -85,6 +88,8 @@ p {
     font-size: 15px;
     color: #dcdcdc; /* Απαλό γκρι για το κείμενο */
 }
+
+
 
 p.cmd {
     margin-left: 10px;
