@@ -1,18 +1,25 @@
-/* Custom Scrollbars   */
+/* Custom Scrollbars */
     
-::-webkit-scrollbar {width: 10px;} /* width */
+::-webkit-scrollbar {
+    width: 10px; /* Πλάτος του scrollbar */
+}
 
 /* Track */
 ::-webkit-scrollbar-track {
-      box-shadow: inset 0 0 10px rgb(4, 4, 48); 
-      border-radius: 10px; }
+    background-color: rgb(12, 12, 24); /* Σκούρο φόντο για το track */
+    box-shadow: inset 0 0 10px rgba(4, 4, 48, 0.7); /* Απαλότερη σκιά για πιο κομψό αποτέλεσμα */
+    border-radius: 10px;
+}
      
 /* Handle */
 ::-webkit-scrollbar-thumb {
-      background: rgb(253, 253, 253); 
-      border-radius: 5px;
-    }
+    background: rgb(200, 200, 200); /* Απαλό γκρι για να φαίνεται καθαρά */
+    border-radius: 5px;
+    transition: background-color 0.3s ease; /* Προσθήκη ομαλής μετάβασης */
+}
  
-::-webkit-scrollbar-thumb:hover {background: rgb(12, 12, 1);} 
-  
-/* ΤΕΛΟΣ Custom Scrollbars   */
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(150, 150, 150); /* Πιο σκούρο γκρι στο hover */
+}
+
+/* ΤΕΛΟΣ Custom Scrollbars */
