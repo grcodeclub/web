@@ -42,11 +42,6 @@ h1.title {
     color: #dcdcdc; /* Πιο απαλή γραμματοσειρά */
 }
 
-code {
-    font-size: 15px;
-    color: #e0e0e0; /* Απαλό γκρι για το κείμενο του κώδικα */
-}
-
 a.link {
     padding: 4px;
     background-color: #1a1a1a; /* Σκούρο γκρι */
@@ -56,11 +51,7 @@ a.link {
     border-radius: 5px;
     transition: background-color 0.3s ease, color 0.3s ease;
 }
-
-.link span {
-    font-size: 18px;
-}
-
+.link span { font-size: 18px; }
 a.link:hover {
     padding: 4px;
     color: #1a1a1a; /* Αντίθετο χρώμα στο hover */
@@ -69,6 +60,7 @@ a.link:hover {
     margin: auto;
     border-radius: 5px;
 }
+
 
 h2.title {
     text-align: center;
