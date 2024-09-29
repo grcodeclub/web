@@ -22,6 +22,7 @@ caption{
     border-collapse: collapse; /* Ενοποίηση περιγραμμάτων κελιών */
     padding: 8px; /* Μείωση του padding για καλύτερη προσαρμογή στην εκτύπωση */
     overflow-wrap: break-word; /* Σπάσιμο μεγάλων λέξεων */
+    font-size: 18px;
 }
 
 #search_table_page td, #search_table_page_3 td,.mytable,
