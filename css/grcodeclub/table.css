@@ -16,7 +16,7 @@ caption{
   font-size: 35px;
   }
 
-#search_table_page, #search_table_page_3,.mytable, #table_post
+#search_table_page, #search_table_page_3,.mytable, #table_post,
 #table_page {
     width: 100%;
     border-collapse: collapse; /* Ενοποίηση περιγραμμάτων κελιών */
@@ -24,7 +24,7 @@ caption{
     overflow-wrap: break-word; /* Σπάσιμο μεγάλων λέξεων */
 }
 
-#search_table_page td, #search_table_page_3 td,.mytable, #table_post td
+#search_table_page td, #search_table_page_3 td,.mytable, #table_post td,
 #table_page td {
     padding: 10px; /* Πάχος padding για τα κελιά */
     padding: 8px;  /* Μείωση του padding για καλύτερη προσαρμογή στην εκτύπωση */
