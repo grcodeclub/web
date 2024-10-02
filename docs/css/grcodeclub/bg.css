@@ -1,4 +1,4 @@
-body,.mobile{
+body,#mobile{
   background-image: url("https://grcodeclub.gr/files-page/background/main.jpg");
   margin: 0;
   font-family: "Arial";
@@ -27,6 +27,17 @@ body,.mobile{
   background-repeat: no-repeat; /* Αποτρέπει την επανάληψη της εικόνας */
  
 }
+
+#image{
+  background-image: url("https://grcodeclub.gr/files-page/background/image.jpg");
+  margin: 0;
+  font-family: "Arial";
+  background-size: cover;
+  background-attachment: fixed; /* Κάνει την εικόνα σταθερή */
+  background-repeat: no-repeat; /* Αποτρέπει την επανάληψη της εικόνας */
+ 
+}
+
 
 #windows{
   background-image: url("https://grcodeclub.gr/files-page/background/windows.jpg");
