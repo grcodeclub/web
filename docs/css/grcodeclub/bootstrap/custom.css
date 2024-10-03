@@ -4,8 +4,13 @@
 	margin-bottom: 20px;
 }
 
-.container{
-	  margin-top: 20%
+
+@media (min-width: 992px) {
+   .container{margin-top: 10%}
+}
+
+@media (max-width: 992px) {
+   .container{margin-top: 20%}
 }
 
 .navbar-expand-lg {
