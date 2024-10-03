@@ -27,7 +27,7 @@ select {
 .bg_preview{
   border-radius: 10px; 
   background-color: rgb(0, 0, 0);
-  margin: 5%;
+  margin: 1%;
   padding-bottom: 2px;
   max-width: 80vw; /* Μέγιστο πλάτος ίσο με το πλάτος της οθόνης */
    overflow-x: auto; /* Χρήση οριζόντιου scroll όταν είναι απαραίτητο */
