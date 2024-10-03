@@ -4,13 +4,29 @@
 	margin-bottom: 20px;
 }
 
-.mark {
-    background-color: #c4c4c4; /* Χρώμα φόντου */
-    color: #000000; /* Χρώμα κειμένου */
-    padding: .2em .4em; /* Περιθώριο γύρω από το κείμενο */
-    border-radius: .2rem; /* Στρογγυλεμένες γωνίες */
-}
+  /* Αφαίρεση του default background του navbar-toggler-icon */
+        .navbar-toggler-icon {
+            background-image: none;
+        }
+        
+        /* Προσαρμογή για το hamburger και το X */
+        .hamburger-icon, .close-icon {
+            width: 30px;
+            height: 30px;
+        }
 
+        /* Απόκρυψη του close icon από την αρχή */
+        .close-icon {
+            display: none;
+        }
+
+        /* Εναλλαγή κατά το άνοιγμα του μενού */
+        .navbar-toggler.open .hamburger-icon {
+            display: none;
+        }
+        .navbar-toggler.open .close-icon {
+            display: block;
+        }
 
 @media (min-width: 992px) {
    .container{margin-top: 10%}
