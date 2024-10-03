@@ -67,7 +67,7 @@
 
 /* Τροποποίηση του background color του κουμπιού */
 .navbar-toggler {
-    background-color: #000000; /* Μαύρο φόντο */
+    border-color: #000000; /* Μαύρο φόντο */
 }
 
 /* Αφαίρεση του προεπιλεγμένου background image */
