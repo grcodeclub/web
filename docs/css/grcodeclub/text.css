@@ -28,7 +28,7 @@ div.cmd {
 }
 
 .highlight {
-    padding-left: 20px;
+    padding: 10px;
     background-color: #1c1c1c; /* Σκούρο μαύρο-γκρι */
     color: #dcdcdc; /* Πιο απαλή γραμματοσειρά */
 }
