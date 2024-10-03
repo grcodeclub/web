@@ -7,7 +7,7 @@
 
 @media (min-width: 992px) {
    .container{margin-top: 10%}
-#submenu .dropdown-menu {
+#submenu {
     left: auto;
     right: 100%;
 }
