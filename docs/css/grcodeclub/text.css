@@ -27,15 +27,6 @@ div.cmd {
     padding: 10px;
 }
 
-h1.title {
-    text-align: center;
-    background-color: black;
-    color: #f0f0f0; /* Ανοιχτό γκρι */
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    padding: 15px;
-}
-
 .highlight {
     padding-left: 20px;
     background-color: #1c1c1c; /* Σκούρο μαύρο-γκρι */
@@ -60,10 +51,11 @@ a.link:hover {
     margin: auto;
     border-radius: 5px;
 }
-h2.title {
+
+.title {
     text-align: center;
     background-color: #262626; /* Σκούρο φόντο */
-    color: #e0e0e0; /* Απαλό γκρι */
+    color: white; /* Απαλό γκρι */
     padding: 10px;
 }
 
