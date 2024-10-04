@@ -1,21 +1,3 @@
-           select option { 
-                background-color: #000000; /* Χρώμα φόντου των επιλογών */
-                border: none;
-                border-radius: 10px;
-                color: rgb(255, 255, 255);
-            }
-
-select {
-           color: white; 
-           border-radius: 10px; 
-           width: 30%; background-color: rgba(0, 0, 0, 0.795); 
-           border: none; 
-           font-size: 18px; 
-           outline: none; 
-           cursor: pointer;
-}
-
-
 
 .appearance{
   display:grid;
