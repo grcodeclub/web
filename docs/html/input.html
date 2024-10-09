@@ -1,123 +1,117 @@
-<html>
-    <head>
-        <meta property="og:image" content="https://grcodeclub.gr/files-page/preview/programming/html.png"/>
-        <meta property="og:title" content="GrCode Club | Website Html">
-          <script src="https://grcodeclub.github.io/js/add/data.js"></script>
-    </head>
+<!DOCTYPE html>
+<html lang="el">
+<head>
+    <meta property="og:image" content="https://grcodeclub.github.io/files-page/preview/programming/html.png"/>
+    <meta property="og:title" content="GrCode Club | Input Tag">
+    <script src="https://grcodeclub.github.io/js/data.js"></script>
+</head>
+<body>
+    <div id="addHeader"></div>
+    <div class="container">
+        <h1 class="title">&lt;input></h1>
+        <p>Το &lt;input> είναι ένα ενσωματωμένο στοιχείο (inline element) στην HTML που χρησιμοποιείται για τη δημιουργία εισόδου δεδομένων από τον χρήστη σε μια ιστοσελίδα. Οι δυνατότητες που έχετε με το &lt;input> εξαρτώνται από τον τύπο του πεδίου εισόδου (input type). </p>
+        <p>Radio</p>
+        <div class="bg_preview"><div  class="line-numbers">
+        <pre class="bg"><code class="language-html">&lt;input type="radio" name="gender" value="1"> 1</code></pre></div>
+        <input type="radio" name="number" value="1"> 1 <br>
+            <input type="radio" name="number" value="2"> 2</div>
 
-   <body>
-        <div class="container">
-            <div id="add_headder_and_menu"></div>
-            <div class="Text"> <!--Αρχή Κειμένου-->
-                 <a href="./"><h1 id="back_page"></h1></a>
-                <div class="text_bg"> <!-- Αρχή Background Κειμένου-->
-                    <h1 class="title">&lt;input></h1>
-                        <p>Το &lt;input> είναι ένα ενσωματωμένο στοιχείο (inline element) στην HTML που χρησιμοποιείται για τη δημιουργία εισόδου δεδομένων από τον χρήστη σε μια ιστοσελίδα. Οι δυνατότητες που έχετε με το &lt;input> εξαρτώνται από τον τύπο του πεδίου εισόδου (input type). </p>
-                        <h3 class="highlight">Radio</h3>
-                        <div class="bg_preview"><div  class="line-numbers">
-                        <pre class="bg"><code class="language-html">&lt;input type="radio" name="gender" value="1"> 1</code></pre></div>
-                        <input type="radio" name="number" value="1"> 1 <br>
-                            <input type="radio" name="number" value="2"> 2</div>
-
-                        <h3 class="highlight">Κουτί επιλογής (Checkbox)</h3>
-                        <div class="bg_preview"><div  class="line-numbers">
-                        <pre class="bg"><code class="language-html">&lt;input type="checkbox">Select 1</code></pre></div>
-                        <input type="checkbox"  style="display:inline-block;">Select 1 <br>
-                            <input type="checkbox"  style="display:inline-block;">Select 2 <br>
-                            <input type="checkbox" style="display:inline-block;">Select 3</div>
+        <p>Κουτί επιλογής (Checkbox)</p>
+        <div class="bg_preview"><div  class="line-numbers">
+        <pre class="bg"><code class="language-html">&lt;input type="checkbox">Select 1</code></pre></div>
+        <input type="checkbox"  style="display:inline-block;">Select 1 <br>
+            <input type="checkbox"  style="display:inline-block;">Select 2 <br>
+            <input type="checkbox" style="display:inline-block;">Select 3</div>
 
 
-                        <h3 class="highlight">Κατανομή (Range)</h3>
-                        <p>Επιτρέπει στον χρήστη να επιλέξει μια τιμή από ένα εύρος μέσω ενός μπάρας.</p>
-                        <div class="bg_preview"><div  class="line-numbers">
-                        <pre class="bg"><code class="language-html">&lt;input type="range" name="volume" min="0" max="100"></code></pre></div>
-                        <input type="range" name="volume" min="0" max="100"></div>
+        <p>Κατανομή (Range)</p>
+        <p>Επιτρέπει στον χρήστη να επιλέξει μια τιμή από ένα εύρος μέσω ενός μπάρας.</p>
+        <div class="bg_preview"><div  class="line-numbers">
+        <pre class="bg"><code class="language-html">&lt;input type="range" name="volume" min="0" max="100"></code></pre></div>
+        <input type="range" name="volume" min="0" max="100"></div>
 
-                        <h3 class="highlight">Κουτί κειμένου (Textarea)</h3>
-                        <p>Δημιουργεί ένα πεδίο κειμένου που επιτρέπει στον χρήστη να εισάγει πολλαπλές γραμμές κειμένου.</p>
-                        <div class="bg_preview"><div  class="line-numbers">
-                        <pre class="bg"><code class="language-html">&lt;textarea name="comments" rows="4" cols="50"></textarea></code></pre></div>
-                        <textarea name="comments" rows="4" cols="50"></textarea></div>
+        <p>Κουτί κειμένου (Textarea)</p>
+        <p>Δημιουργεί ένα πεδίο κειμένου που επιτρέπει στον χρήστη να εισάγει πολλαπλές γραμμές κειμένου.</p>
+        <div class="bg_preview"><div  class="line-numbers">
+        <pre class="bg"><code class="language-html">&lt;textarea name="comments" rows="4" cols="50"></textarea></code></pre></div>
+        <textarea name="comments" rows="4" cols="50"></textarea></div>
 
-                        <h3 class="highlight">Κείμενο (Text)</h3>
-                        <p>Αυτός είναι ο προεπιλεγμένος τύπος. Ο χρήστης μπορεί να εισαγάγει κείμενο.</p>
-                        <div class="bg_preview"><div  class="line-numbers">
-                        <pre class="bg"><code class="language-html">&lt;input type="text" name="username"></code></pre></div>
-                        <input type="text" name="username"></div>
+        <p>Κείμενο (Text)</p>
+        <p>Αυτός είναι ο προεπιλεγμένος τύπος. Ο χρήστης μπορεί να εισαγάγει κείμενο.</p>
+        <div class="bg_preview"><div  class="line-numbers">
+        <pre class="bg"><code class="language-html">&lt;input type="text" name="username"></code></pre></div>
+        <input type="text" name="username"></div>
 
-                        <h3 class="highlight">Κείμενο (Text) - Απενεργοποίηση Autofill (Αυτόματη Συμπλήρωση)</h3>
-                        <p>Αυτό μπορεί να εμποδίσει τα προγράμματα περιήγησης από το να προσφέρουν αυτόματη συμπλήρωση σε φόρμες.</p>
-                        <div class="bg_preview"><div  class="line-numbers">
-                        <pre class="bg"><code class="language-html">&lt;input type="text" autocomplete="off">></code></pre></div></div>
+        <p>Κείμενο (Text) - Απενεργοποίηση Autofill (Αυτόματη Συμπλήρωση)</p>
+        <p>Αυτό μπορεί να εμποδίσει τα προγράμματα περιήγησης από το να προσφέρουν αυτόματη συμπλήρωση σε φόρμες.</p>
+        <div class="bg_preview"><div  class="line-numbers">
+        <pre class="bg"><code class="language-html">&lt;input type="text" autocomplete="off">></code></pre></div></div>
 
-                        <h3 class="highlight">Διακομιστής αναζήτησης (Search)</h3>
-                        <p>Αυτός είναι ο προεπιλεγμένος τύπος. Ο χρήστης μπορεί να εισαγάγει κείμενο.</p>
-                        <div class="bg_preview"><div  class="line-numbers">
-                        <pre class="bg"><code class="language-html">&lt;input type="search" name="query"></code></pre></div>
-                        <input type="search" name="query"></div>
+        <p>Διακομιστής αναζήτησης (Search)</p>
+        <p>Αυτός είναι ο προεπιλεγμένος τύπος. Ο χρήστης μπορεί να εισαγάγει κείμενο.</p>
+        <div class="bg_preview"><div  class="line-numbers">
+        <pre class="bg"><code class="language-html">&lt;input type="search" name="query"></code></pre></div>
+        <input type="search" name="query"></div>
 
-                        <h3 class="highlight">Κωδικός (Password)</h3>
-                        <div class="bg_preview"><div  class="line-numbers">
-                        <pre class="bg"><code class="language-html">&lt;input type="password" name="password"></code></pre></div>
-                        <input type="password" name="password"></div>
+        <p>Κωδικός (Password)</p>
+        <div class="bg_preview"><div  class="line-numbers">
+        <pre class="bg"><code class="language-html">&lt;input type="password" name="password"></code></pre></div>
+        <input type="password" name="password"></div>
 
-                        <h3 class="highlight">Κουμπί υποβολής (Submit)</h3>
-                        <p>Χρησιμοποιείται για να υποβάλετε μια φόρμα στον server.</p>
-                        <div class="bg_preview"><div  class="line-numbers">
-                        <pre class="bg"><code class="language-html">&lt;input type="submit" value="Υποβολή"></code></pre></div>
-                        <input type="submit" value="Υποβολή"></div>
+        <p>Κουμπί υποβολής (Submit)</p>
+        <p>Χρησιμοποιείται για να υποβάλετε μια φόρμα στον server.</p>
+        <div class="bg_preview"><div  class="line-numbers">
+        <pre class="bg"><code class="language-html">&lt;input type="submit" value="Υποβολή"></code></pre></div>
+        <input type="submit" value="Υποβολή"></div>
 
-                        <h3 class="highlight">Κουμπί επαναφοράς (Reset)</h3>
-                        <p>Χρησιμοποιείται για να επαναφέρετε τις τιμές των πεδίων εισόδου στην αρχική τους κατάσταση.</p>
-                        <div class="bg_preview"><div  class="line-numbers">
-                        <pre class="bg"><code class="language-html">&lt;input type="reset" value="Επαναφορά"></code></pre></div>
-                        <input type="reset" value="Επαναφορά"></div>
-          
-                        <h3 class="highlight">Time</h3>
-                        <div class="bg_preview"><div  class="line-numbers">
-                        <pre class="bg"><code class="language-html">&lt;input type="time"></code></pre></div>
-                        <input type="time"></div>
-                    
-                        <h3 class="highlight">Date</h3>
-                        <div class="bg_preview"><div  class="line-numbers">
-                        <pre class="bg"><code class="language-html">&lt;input type="date"></code></pre></div>
-                        <input type="date"></div>
+        <p>Κουμπί επαναφοράς (Reset)</p>
+        <p>Χρησιμοποιείται για να επαναφέρετε τις τιμές των πεδίων εισόδου στην αρχική τους κατάσταση.</p>
+        <div class="bg_preview"><div  class="line-numbers">
+        <pre class="bg"><code class="language-html">&lt;input type="reset" value="Επαναφορά"></code></pre></div>
+        <input type="reset" value="Επαναφορά"></div>
 
-                        <h3 class="highlight">Date Time</h3>
-                        <div class="bg_preview"><div  class="line-numbers">
-                        <pre class="bg"><code class="language-html">&lt;input type="datetime-local"></code></pre></div>
-                        <input type="datetime-local"></div>
+        <p>Time</p>
+        <div class="bg_preview"><div  class="line-numbers">
+        <pre class="bg"><code class="language-html">&lt;input type="time"></code></pre></div>
+        <input type="time"></div>
+    
+        <p>Date</p>
+        <div class="bg_preview"><div  class="line-numbers">
+        <pre class="bg"><code class="language-html">&lt;input type="date"></code></pre></div>
+        <input type="date"></div>
 
-                        <h3 class="highlight">Αριθμοί (Number)</h3>
-                        <p>Επιτρέπει στον χρήστη να εισάγει αριθμητικές τιμές. Μπορείτε να ορίσετε το εύρος τιμών με τα min και max.</p>
-                        <div class="bg_preview"><div  class="line-numbers">
-                        <pre class="bg"><code class="language-html">&lt;input type="number" name="quantity" min="1" max="100"></code></pre></div>
-                        <input type="number" name="quantity" min="1" max="100"></div>
-                        
-                        <h3 class="highlight">Color</h3>
-                        <div class="bg_preview"><div  class="line-numbers">
-                        <pre class="bg"><code class="language-html">&lt;input type="url" name="website"></code></pre></div>
-                        <input type="url" name="website"></div>
+        <p>Date Time</p>
+        <div class="bg_preview"><div  class="line-numbers">
+        <pre class="bg"><code class="language-html">&lt;input type="datetime-local"></code></pre></div>
+        <input type="datetime-local"></div>
 
-                        <h3 class="highlight">URL</h3>
-                        <div class="bg_preview"><div  class="line-numbers">
-                        <pre class="bg"><code class="language-html">&lt;input type="color"></code></pre></div>
-                        <input type="color"></div>
+        <p>Αριθμοί (Number)</p>
+        <p>Επιτρέπει στον χρήστη να εισάγει αριθμητικές τιμές. Μπορείτε να ορίσετε το εύρος τιμών με τα min και max.</p>
+        <div class="bg_preview"><div  class="line-numbers">
+        <pre class="bg"><code class="language-html">&lt;input type="number" name="quantity" min="1" max="100"></code></pre></div>
+        <input type="number" name="quantity" min="1" max="100"></div>
+        
+        <p>Color</p>
+        <div class="bg_preview"><div  class="line-numbers">
+        <pre class="bg"><code class="language-html">&lt;input type="url" name="website"></code></pre></div>
+        <input type="url" name="website"></div>
 
-                        <h3 class="highlight">Email</h3>
-                        <div class="bg_preview"><div  class="line-numbers">
-                        <pre class="bg"><code class="language-html">&lt;input type="email"></code></pre></div>
-                        <input type="email"></div>
-                        
-                        <h3 class="highlight">Upload File</h3>
-                        <div class="bg_preview"><div  class="line-numbers">
-                        <pre class="bg"><code class="language-html">&lt;input type="file"></code></pre></div>
-                        <input type="file"></div>
-                        
-                    </div>
-                </div><!-- Τέλος Background Κειμένου-->
-            </div> <!--Τέλος Κειμένου-->
-        </div> <!--Τέλος container-->
-         
-    </body>
+        <p>URL</p>
+        <div class="bg_preview"><div  class="line-numbers">
+        <pre class="bg"><code class="language-html">&lt;input type="color"></code></pre></div>
+        <input type="color"></div>
+
+        <p>Email</p>
+        <div class="bg_preview"><div  class="line-numbers">
+        <pre class="bg"><code class="language-html">&lt;input type="email"></code></pre></div>
+        <input type="email"></div>
+        
+        <p>Upload File</p>
+        <div class="bg_preview"><div  class="line-numbers">
+        <pre class="bg"><code class="language-html">&lt;input type="file"></code></pre></div>
+        <input type="file"></div>
+
+    </div>
+    <div id="addFooter"></div>
+</body>
 </html>
